@@ -1,0 +1,45 @@
+nav ul a{
+	border-bottom: none;
+}
+.indicators{
+	display: none;
+}
+nav.dark .brand-logo, nav.dark ul a,
+.table-of-contents a{
+	color: #999;
+}
+.table-of-contents a.active{
+	color: #666;
+	border-top-color: #666;
+}
+.table-of-contents a:hover, 
+.table-of-contents a.active:hover{
+	color: #333;
+}
+
+ul.table-of-contents{
+	padding-left: 160px;
+}
+
+.home_section_img{
+	background-size: cover;
+	background-position: center center;
+}
+.nopadding{
+	padding: 0;
+}
+.home_part_contt{
+	padding: 6em 0 4em;
+}
+.home_part_contt h2{
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-weight: 300;
+}
+.home_part_contt h3{
+	margin-top: 0;
+	padding-bottom: 2em;
+	font-weight: 400;
+	color: #999;
+}
